@@ -16,15 +16,18 @@ O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre 
    ```bash
    git clone https://github.com/DouglasFazziola/LLM---KMV.git
    cd LLM---KMV
+   ```
 
 2. Crie um ambiente virtual e ative-o:
     ```bash
     python -m venv venv
     source venv/bin/activate  # No Windows use: venv\Scripts\activate
+    ```
 
 3. Instale as dependências:
     ```bash
     pip install -r requirements.txt
+    ```
 
 ## Execução do App
 Para iniciar o aplicativo, execute o seguinte comando:
@@ -51,6 +54,7 @@ Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre a KMV
     ├── .gitignore            # Arquivo que especifica quais arquivos e diretórios devem ser ignorados pelo Git
     ├── .streamlit            # arquivo contendo os ajustes cores específicas do fundo da interface do Streamlit
     └── README.md             # Este arquivo README, que fornece uma visão geral do projeto e instruções de uso
+    ```
 
 ## Contribuição
 Contribuições são bem-vindas! Por favor, envie um pull request ou abra uma issue para discutir melhorias e sugestões.
