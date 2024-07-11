@@ -45,16 +45,16 @@ Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre a KMV
 - **Interface Amigável**: Interface de usuário desenvolvida com Streamlit para facilitar a interação.
 
 ## Estrutura do Projeto
-    ```plaintext
-    ├── app.py                # Arquivo principal do aplicativo, responsável por iniciar e configurar a aplicação
-    ├── collect.ipynb         # Notebooks Jupyter contendo o processo de web scraping, vetorização e embedding dos dados
-    ├── llm.py                # Arquivo com as configurações e parâmetros para o modelo de linguagem (LLM)
-    ├── ui.py                 # Arquivo que define e configura a interface do usuário
-    ├── requirements.txt      # Arquivo que lista todas as dependências necessárias para executar o projeto
-    ├── .gitignore            # Arquivo que especifica quais arquivos e diretórios devem ser ignorados pelo Git
-    ├── .streamlit            # arquivo contendo os ajustes cores específicas do fundo da interface do Streamlit
-    └── README.md             # Este arquivo README, que fornece uma visão geral do projeto e instruções de uso
-    ```
+ ```plaintext
+ ├── app.py                # Arquivo principal do aplicativo, responsável por iniciar e configurar a aplicação
+ ├── collect.ipynb         # Notebooks Jupyter contendo o processo de web scraping, vetorização e embedding dos dados
+ ├── llm.py                # Arquivo com as configurações e parâmetros para o modelo de linguagem (LLM)
+ ├── ui.py                 # Arquivo que define e configura a interface do usuário
+ ├── requirements.txt      # Arquivo que lista todas as dependências necessárias para executar o projeto
+ ├── .gitignore            # Arquivo que especifica quais arquivos e diretórios devem ser ignorados pelo Git
+ ├── .streamlit            # arquivo contendo os ajustes cores específicas do fundo da interface do Streamlit
+ └── README.md             # Este arquivo README, que fornece uma visão geral do projeto e instruções de uso
+ ```
 
 ## Contribuição
 Contribuições são bem-vindas! Por favor, envie um pull request ou abra uma issue para discutir melhorias e sugestões.
