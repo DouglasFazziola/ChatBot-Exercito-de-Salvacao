@@ -2,7 +2,7 @@
 **Version:** 1.0
 
 ## Descrição do Projeto
-Este projeto consiste em um chatbot que fornece informações sobre a KMV, uma empresa de vantagens e benefícios, utilizando informações extraídas do site oficial da KMV (https://kmdevantagens.com.br/). O chatbot é alimentado por um modelo de linguagem da OpenAI.
+Este projeto consiste em um chatbot que fornece informações sobre a KMV, uma empresa de vantagens e benefícios, utilizando informações extraídas do site oficial da KMV (https://kmdevantagens.com.br/). O chatbot é alimentado por um modelo de linguagem da OpenAI, e foi desenvolvido utilizando o EdenAI através do framework LangChain para facilitar a integração e gerenciamento dos serviços de IA.
 
 ## Objetivo
 O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre a KMV de forma rápida e eficiente através de uma interface de conversa amigável.
