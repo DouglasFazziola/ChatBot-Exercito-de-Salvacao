@@ -28,6 +28,7 @@ O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre 
 
 ## Execução do App
 Para iniciar o aplicativo, execute o seguinte comando:
+    ```bash
     streamlit run app.py
 
 ## Como Usar
@@ -40,6 +41,7 @@ Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre a KMV
 - **Interface Amigável**: Interface de usuário desenvolvida com Streamlit para facilitar a interação.
 
 ## Estrutura do Projeto
+    ```plaintext
     ├── app.py                # Arquivo principal do aplicativo, responsável por iniciar e configurar a aplicação
     ├── collect.ipynb         # Notebooks Jupyter contendo o processo de web scraping, vetorização e embedding dos dados
     ├── llm.py                # Arquivo com as configurações e parâmetros para o modelo de linguagem (LLM)
