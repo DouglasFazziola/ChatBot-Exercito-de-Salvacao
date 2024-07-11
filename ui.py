@@ -52,7 +52,6 @@ def main():
 
         config = {"configurable": {"session_id": "any"}}
         response = chain_with_history.invoke({"question": prompt}, config)
-        #with st.chat_message("ai").write(response.content)
         with st.chat_message("ai"):
             message_placeholder = st.empty()
             full_response = ""

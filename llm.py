@@ -37,9 +37,6 @@ class KMVAssist:
                         persist_directory=persist_directory, 
                         embedding_function=embeddings)
 
-        # if len(msgs.messages) == 0:
-        #     msgs.add_ai_message("Como posso ajudar?")
-
         m = "Voce é um chatbot que ajuda a dar informações sobre a KMV. Não responda perguntas que não tenha relação com a KMV. Se alguem fizer uma pergunta que não tenha nada a ver com a KMV, diga de um jeito comico e bem humorado que não sabe a resposta. Se alguem perguntar quem desenvolveu você, diga que foi um grande desenvolvedor chamado Douglas Campelo Fazziola, mas apenas se perguntar"
 
         contexto = chamar_contexto(prompt)
