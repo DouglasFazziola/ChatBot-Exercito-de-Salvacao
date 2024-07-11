@@ -31,10 +31,9 @@ O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre 
 
 ## Execução do App
 Para iniciar o aplicativo, execute o seguinte comando:
-
-    ```bash
-    streamlit run app.py
-    ```
+```bash
+streamlit run app.py
+```
 
 ## Como Usar
 Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre a KMV, como:
