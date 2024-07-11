@@ -18,10 +18,12 @@ O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre 
    cd LLM---KMV
 
 2. Crie um ambiente virtual e ative-o:
+    ```bash
     python -m venv venv
     source venv/bin/activate  # No Windows use: venv\Scripts\activate
 
 3. Instale as dependências:
+    ```bash
     pip install -r requirements.txt
 
 **Execução do App**
@@ -30,3 +32,26 @@ O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre 
 Para iniciar o aplicativo, execute o seguinte comando:
 ```bash
 streamlit run app.py
+
+## Como Usar
+Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre a KMV, como:
+- "O que é a KMV?"
+- "Quais são os benefícios oferecidos pela KMV?"
+
+## Funcionalidades
+- **Respostas Automatizadas**: O chatbot responde a perguntas utilizando informações do site da KMV.
+- **Interface Amigável**: Interface de usuário desenvolvida com Streamlit para facilitar a interação.
+
+## Estrutura do Projeto
+```plaintext
+├── app.py                # Arquivo principal do aplicativo
+├── collect.ipynb         # Processo de web scraping, vetorização e embedding
+├── llm.py                # Configurações do LLM
+├── ui.py                 # Configuração da tela
+├── requirements.txt      # Dependências do projeto
+├── .gitignore            # Arquivos a serem ignorados pelo Git
+├── .streamlit/           # Ajustes da interface
+└── README.md             # Este arquivo README
+
+## Contribuição
+Contribuições são bem-vindas! Por favor, envie um pull request ou abra uma issue para discutir melhorias e sugestões.
