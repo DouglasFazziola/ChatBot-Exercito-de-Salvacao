@@ -26,8 +26,6 @@ O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre 
     ```bash
     pip install -r requirements.txt
 
-**Execução do App**
-
 ## Execução do App
 Para iniciar o aplicativo, execute o seguinte comando:
     ```bash
