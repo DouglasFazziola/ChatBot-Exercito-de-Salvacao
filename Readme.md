@@ -31,6 +31,7 @@ O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre 
 
 ## Execução do App
 Para iniciar o aplicativo, execute o seguinte comando:
+
     ```bash
     streamlit run app.py
     ```
