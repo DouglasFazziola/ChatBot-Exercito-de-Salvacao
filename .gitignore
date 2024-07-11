@@ -1,9 +1,0 @@
-# dotenv
-.env
-
-# pastas
-data/
-kmv_embedding/
-venv/
-t/
-.gitignore
