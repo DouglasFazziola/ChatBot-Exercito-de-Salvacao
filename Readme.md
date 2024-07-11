@@ -46,7 +46,7 @@ Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre a KMV
 
 ## Estrutura do Projeto
  ```plaintext
- ├── app.py                # Arquivo principal do aplicativo, responsável por iniciar e configurar a aplicação
+ ├── app.py                # Arquivo responsável por iniciar a aplicação
  ├── collect.ipynb         # Notebooks Jupyter contendo o processo de web scraping, vetorização e embedding dos dados
  ├── llm.py                # Arquivo com as configurações e parâmetros para o modelo de linguagem (LLM)
  ├── ui.py                 # Arquivo que define e configura a interface do usuário
