@@ -14,7 +14,7 @@ from time import sleep
 from dotenv import load_dotenv
 load_dotenv()
 
-class KMVAssist:
+class ExercitodeSalvacaoAssistant:
 
     def __init__(self):
         self.api_key = os.getenv("EDENAI_API_KEY")
@@ -22,22 +22,28 @@ class KMVAssist:
 
     def llm(self, prompt):
 
-        chat = ChatEdenAI(edenai_api_key=self.api_key, provider="openai", temperature=0.0, max_tokens=2500, verbose=True)
+        chat = ChatEdenAI(edenai_api_key=self.api_key, provider="openai", temperature=1.0, max_tokens=2500, verbose=True)
 
-        persist_directory = 'kmv_embedding'
-        colletion_vector_coopercitrus = 'kmv_collection'
+        persist_directory = 'exercito_embedding_2'
+        colletion_vector_exercito = 'exercito_collection_2'
         embeddings = EdenAiEmbeddings(provider="openai", edenai_api_key=self.api_key)
 
         def chamar_contexto(pergunta: str) -> str:
-                contexto = db.similarity_search(query = pergunta, k=5)
+                contexto = db.similarity_search(query = pergunta, k=2)
                 contexto = "---".join([doc.page_content for doc in contexto]).replace('\n','  ')
                 return contexto
 
-        db = Chroma(collection_name=colletion_vector_coopercitrus, 
+        db = Chroma(collection_name=colletion_vector_exercito, 
                         persist_directory=persist_directory, 
                         embedding_function=embeddings)
 
-        m = "Voce é um chatbot que ajuda a dar informações sobre a KMV. Não responda perguntas que não tenha relação com a KMV. Se alguem fizer uma pergunta que não tenha nada a ver com a KMV, diga de um jeito comico e bem humorado que não sabe a resposta. Se alguem perguntar quem desenvolveu você, diga que foi um grande desenvolvedor chamado Douglas Campelo Fazziola, mas apenas se perguntar"
+        m = '''Voce é um chatbot que ajuda a dar informações sobre o Exército de Salvação. Não responda perguntas que não tenha relação com o EXÉRCITO DE SALVAÇÃO. Quando alguem disser igreja, está se referindo a igreja do Exército de Salvação, alguns casos podem dizer corpo que também quer dizer igreja. Na sua base de dados tem todos os endereços dos corpos e unidades de projetos socias, é importante que voce responda o endereço corretamente.
+
+        Por exemplo:
+            Pergunta: Onde fica o corpo de Rio Comprido?
+            Resposta: O corpo de Rio Comprido fica localizado no endereço ...
+        
+        Se alguem fizer uma pergunta que não tenha nada a ver com a EXÉRCITO DE SALVAÇÃO, diga de um jeito comico e bem humorado que não sabe a resposta. Se alguem perguntar quem desenvolveu você, diga que foi um grande desenvolvedor chamado Douglas Campelo Fazziola, mas apenas se perguntar.'''
 
         contexto = chamar_contexto(prompt)
 
@@ -48,6 +54,8 @@ class KMVAssist:
                 ("human", "{question}"),
             ]
         )
+
+        print(prompt)
 
         chain = prompt | chat
 

@@ -1,11 +1,11 @@
-# Chatbot - KMV
+# Chatbot - Exército de Salvação
 **Version:** 1.0
 
 ## Descrição do Projeto
-Este projeto consiste em um chatbot que fornece informações sobre a KMV, uma empresa de vantagens e benefícios, utilizando informações extraídas do site oficial da KMV (https://kmdevantagens.com.br/). O chatbot é alimentado por um modelo de linguagem da OpenAI, e foi desenvolvido utilizando o EdenAI através do framework LangChain para facilitar a integração e gerenciamento dos serviços de IA.
+Este projeto consiste em um chatbot que fornece informações sobre o Exército de Salvação, utilizando informações extraídas do site oficial do Exército de Salvação no Brasil (https://www.exercitodesalvacao.org.br/). O chatbot é alimentado por um modelo de linguagem da OpenAI, e foi desenvolvido utilizando o EdenAI através do framework LangChain para facilitar a integração e gerenciamento dos serviços de IA.
 
 ## Objetivo
-O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre a KMV de forma rápida e eficiente através de uma interface de conversa amigável.
+O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre o Exército de Salvação de forma rápida e eficiente através de uma interface de conversa amigável.
 
 ## Requisitos do Sistema
 - Python 3.8 ou superior
@@ -14,8 +14,8 @@ O objetivo deste chatbot é facilitar o acesso a informações relevantes sobre 
 ## Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/DouglasFazziola/LLM---KMV.git
-   cd LLM---KMV
+   git clone https://github.com/DouglasFazziola/ChatBot-Exercito-de-Salvacao.git
+   cd ChatBot-Exercito-de-Salvacao
    ```
 
 2. Crie um ambiente virtual e ative-o:
@@ -36,12 +36,13 @@ streamlit run app.py
 ```
 
 ## Como Usar
-Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre a KMV, como:
-- "O que é a KMV?"
-- "Quais são os benefícios oferecidos pela KMV?"
+Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre o Exército de Salvação, como:
+- "Qual é o Objetivo do Exército de Salvação?"
+- "Quem fundou e quando foi fundado o Exército de Salvação?"
+- "Quais são os projetos do exercito de salvação no Brasil?"
 
 ## Funcionalidades
-- **Respostas Automatizadas**: O chatbot responde a perguntas utilizando informações do site da KMV.
+- **Respostas Automatizadas**: O chatbot responde a perguntas utilizando informações do site do Exército de Salvação.
 - **Interface Amigável**: Interface de usuário desenvolvida com Streamlit para facilitar a interação.
 
 ## Estrutura do Projeto
