@@ -39,7 +39,7 @@ streamlit run app.py
 Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre o Exército de Salvação, como:
 - "Qual é o Objetivo do Exército de Salvação?"
 - "Quem fundou e quando foi fundado o Exército de Salvação?"
-- "Quais são os projetos do exercito de salvação no Brasil?"
+- "Quais são os projetos do Exército de Salvação no Brasil?"
 
 ## Funcionalidades
 - **Respostas Automatizadas**: O chatbot responde a perguntas utilizando informações do site do Exército de Salvação.
@@ -53,7 +53,6 @@ Após iniciar o aplicativo, utilize a interface para fazer perguntas sobre o Ex�
  ├── ui.py                 # Arquivo que define e configura a interface do usuário
  ├── requirements.txt      # Arquivo que lista todas as dependências necessárias para executar o projeto
  ├── .gitignore            # Arquivo que especifica quais arquivos e diretórios devem ser ignorados pelo Git
- ├── .streamlit            # arquivo contendo os ajustes cores específicas do fundo da interface do Streamlit
  └── README.md             # Este arquivo README, que fornece uma visão geral do projeto e instruções de uso
  ```
 
