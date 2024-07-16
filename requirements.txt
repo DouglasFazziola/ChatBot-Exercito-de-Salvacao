@@ -1,3 +1,4 @@
+pip==24.1.2
 beautifulsoup4==4.12.3
 bs4==0.0.2
 chromadb==0.5.3
@@ -10,4 +11,4 @@ openai==0.28.0
 pandas==2.2.2
 python-dotenv
 streamlit==1.35.0
-sqlite3
+sqlite3==3.45.3
