@@ -38,7 +38,7 @@ def main():
     for msg in msgs.messages:
         st.chat_message(msg.type).write(msg.content)
 
-    if prompt := st.chat_input("Digite aqui sua pergunta sobre a Exérito de Salvação"):
+    if prompt := st.chat_input("Digite aqui sua pergunta sobre o Exérito de Salvação"):
         st.chat_message("human").write(prompt)
         chain = llm.llm(prompt)
 
