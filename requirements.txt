@@ -11,3 +11,4 @@ openai==0.28.0
 pandas==2.2.2
 python-dotenv
 streamlit==1.35.0
+pysqlite3==0.5.3
