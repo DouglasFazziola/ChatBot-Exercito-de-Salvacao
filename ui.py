@@ -25,7 +25,7 @@ def main():
 
     col1,col2 = st.columns([3,8])
     image_url = 'https://static.wixstatic.com/media/5e1ee4_e7455edc66c74522937933a9df253402~mv2.png/v1/fill/w_120,h_134,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Novo%20Escudo%20-%20%C3%8Dcone%20Wix.png'
-    col2.title('Assistente Vitual Exército de Salvação')
+    col2.title('Assistente Virtual Exército de Salvação')
     col1.image(image_url)
     col2.subheader('')
 
