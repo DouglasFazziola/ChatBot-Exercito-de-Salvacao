@@ -1,5 +1,5 @@
 # Chatbot - Exército de Salvação
-**Version:** 1.0
+**Versão:** 1.0
 
 ## Descrição do Projeto
 Este projeto consiste em um chatbot que fornece informações sobre o Exército de Salvação, utilizando informações extraídas do site oficial do Exército de Salvação no Brasil (https://www.exercitodesalvacao.org.br/). O chatbot é alimentado por um modelo de linguagem da OpenAI, e foi desenvolvido utilizando o EdenAI através do framework LangChain para facilitar a integração e gerenciamento dos serviços de IA.
