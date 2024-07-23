@@ -15,7 +15,7 @@ def main():
 
     try:
         st.set_page_config(
-            page_title="Exérito de Salvação Assist",
+            page_title="Assistente Virtual Exército de Salvação",
             page_icon="https://static.wixstatic.com/media/5e1ee4_e7455edc66c74522937933a9df253402~mv2.png/v1/fill/w_120,h_134,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Novo%20Escudo%20-%20%C3%8Dcone%20Wix.png",
             initial_sidebar_state="collapsed",
             layout="centered",
