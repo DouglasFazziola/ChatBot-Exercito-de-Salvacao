@@ -11,7 +11,10 @@ from streamlit.runtime.scriptrunner import get_script_run_ctx
 
 
 def main():
-    session_id = get_script_run_ctx().session_id
+    if "session_id" not in st.session_state:
+        st.session_state["session_id"] = random.randint(1, 1000000)
+
+    session_id = st.session_state["session_id"]
 
     try:
         st.set_page_config(
